@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SPCX To Moon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+
+  <header class="hero">
+    <h1><span id="title">SPCX To Moon</span></h1>
+    <p class="tagline" id="tagline"></p>
+    <span class="badge" id="day-badge"></span>
+  </header>
+
+  <main>
+    <section aria-labelledby="h-stats">
+      <h2 id="h-stats">Mission report</h2>
+      <div class="grid" id="stats"></div>
+      <div id="progress"></div>
+    </section>
+
+    <section aria-labelledby="h-rules">
+      <h2 id="h-rules">Flight rules</h2>
+      <ol class="rules" id="rules"></ol>
+    </section>
+
+    <section aria-labelledby="h-log">
+      <h2 id="h-log">Mission log</h2>
+      <div class="timeline" id="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="muted small">A personal experiment, documented in public. Not financial advice, and definitely not a recommendation.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
